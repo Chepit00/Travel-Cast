@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.7"></script>
     <link rel="stylesheet" href="./Assets/style.css">
-    <title>Document</title>
+    <title>Travel Cast</title>
 </head>
 <body>
-    <header>Weather Dashboard</header>
+    <header>Travel Cast</header>
     <main>
-        <section>
+        <section class="container">
         <form id="city-Search-Form">
-            <label for="city">Search for City:</label><br>
-            <input type="text" id="city-input" name="city" placeholder="North Carolina"><br>
+            <label for="city-input">Search for City:</label><br>
+            <input type="text" id="city-input" name="city" placeholder="Greensboro"><br>
             <input type="submit" value="Search">
+            <div class="pastCitiesContainer">
+                <div id="past-cities"></div>
+            </div>
         </form>
 
-            <div></div>
+            <div class="weather-container">
+            <div class="location">City, Country<p id="currentDay"></p></div>
+            <div class="temp"><p>Temp.</p></div>
+            <div class="wind"><p>Wind</p></div>
+            <div class="humidity"><p>Humidity</p></div>
+            </div>
         </section>
-
-        <section>
-
+        <section class="containerBtm">
+        <div id="forecast-container">
+            <h2>5-Day Forecast:</h2>
+            <div id="forecast"></div>
+            
+        </div>
         </section>
     </main>
 

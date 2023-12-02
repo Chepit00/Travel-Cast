@@ -12,9 +12,96 @@
     text-align: center;
     color: white;
     padding: 15px;
-    background-color: rgb(152, 99, 201);
+    background-color: rgb(60, 153, 179);
     font-size: 32px;
     margin-bottom: 20px;
 
  }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: grey;
+}
+
+.containerBtm {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(228, 224, 224);
+}
+
+#city-search-form {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    width: 300px;
+}
+
+.weather-container {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 500px;
+}
+
+input[type="submit"] {
+    background-color: #4c82af;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1f74ba;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(23% - 25px);
+    margin: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: rgb(54, 131, 186);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .pastCitiesContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+#past-cities button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 8px;
+    background-color: lightsteelblue;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('../Assets/maksym-harbar-Vd9QJM0mATg-unsplash.jpg');
+    background-size: cover;
+}
+main {
+    opacity: 0.8;
+}
