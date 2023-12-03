@@ -19,6 +19,8 @@ Travel Cast is an app designed to help users plan accordingly for traveling or e
 ## Installation
 
 Travel cast is available at this link for use https://chepit00.github.io/Travel-Cast/
+![Screenshot 2023-12-02 215501](https://github.com/Chepit00/Travel-Cast/assets/144062349/1311a93b-d24f-457c-b92b-5c91c3cf0e4a)
+
 
 ## Usage
 
